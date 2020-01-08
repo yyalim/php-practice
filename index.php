@@ -1,9 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My todos</title>
+</head>
+<body>
 <?php 
-require './functions.php';
-require './task.php';
+	require 'vendor/autoload.php';
+	require 'core/bootstrap.php';
+	require 'views/partials/nav.php'; 
+?>
+<div class="content">
+<?php 
 
-$pdo = connectToDb();
-$tasks = fetchAllTasks($pdo);
+use App\Core\{Router,Request};
 
-require './index.view.php';
-
+Router::load('routes.php')
+	->direct(Request::uri(), Request::method());
+?>
+</div>
+</body>
+</html>

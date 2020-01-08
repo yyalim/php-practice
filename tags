@@ -1,0 +1,98 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+0	composer.json	/^			".\/"$/;"	s	array:autoload.classmap
+App	controllers/TasksController.php	/^use App\\Core\\App;$/;"	a	typeref:unknown:App\\Core\\App
+App	core/App.php	/^class App {$/;"	c	namespace:App\\Core
+App	core/bootstrap.php	/^use App\\Core\\App;$/;"	a	typeref:unknown:App\\Core\\App
+App\\Core	core/App.php	/^namespace App\\Core;$/;"	n
+ClassLoader	vendor/composer/ClassLoader.php	/^class ClassLoader$/;"	c	namespace:Composer\\Autoload
+ComposerAutoloaderInit0e147355c3fe1c3ddd99cd4c885a9041	vendor/composer/autoload_real.php	/^class ComposerAutoloaderInit0e147355c3fe1c3ddd99cd4c885a9041$/;"	c
+ComposerStaticInit0e147355c3fe1c3ddd99cd4c885a9041	vendor/composer/autoload_static.php	/^class ComposerStaticInit0e147355c3fe1c3ddd99cd4c885a9041$/;"	c	namespace:Composer\\Autoload
+Composer\\Autoload	vendor/composer/ClassLoader.php	/^namespace Composer\\Autoload;$/;"	n
+Composer\\Autoload	vendor/composer/autoload_static.php	/^namespace Composer\\Autoload;$/;"	n
+Connection	core/database/Connection.php	/^class Connection {$/;"	c
+PagesController	controllers/PagesController.php	/^class PagesController {$/;"	c
+QueryBuilder	core/database/QueryBuilder.php	/^class QueryBuilder {$/;"	c
+Request	core/Request.php	/^class Request {$/;"	c
+Router	core/Router.php	/^class Router {$/;"	c
+Task	models/task.php	/^class Task {$/;"	c
+TasksController	controllers/TasksController.php	/^class TasksController {$/;"	c
+__construct	core/database/QueryBuilder.php	/^	public function __construct(PDO $pdo) {$/;"	f	class:QueryBuilder
+about	controllers/PagesController.php	/^	public function about() {$/;"	f	class:PagesController
+add	vendor/composer/ClassLoader.php	/^    public function add($prefix, $paths, $prepend = false)$/;"	f	class:Composer\\Autoload\\ClassLoader
+addClassMap	vendor/composer/ClassLoader.php	/^    public function addClassMap(array $classMap)$/;"	f	class:Composer\\Autoload\\ClassLoader
+addPsr4	vendor/composer/ClassLoader.php	/^    public function addPsr4($prefix, $paths, $prepend = false)$/;"	f	class:Composer\\Autoload\\ClassLoader
+apcuPrefix	vendor/composer/ClassLoader.php	/^    private $apcuPrefix;$/;"	v	class:Composer\\Autoload\\ClassLoader
+autoload	composer.json	/^	"autoload": {$/;"	o
+baseDir	vendor/composer/autoload_classmap.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_namespaces.php	/^$baseDir = dirname($vendorDir);$/;"	v
+baseDir	vendor/composer/autoload_psr4.php	/^$baseDir = dirname($vendorDir);$/;"	v
+bind	core/App.php	/^	public static function bind($key, $value) {$/;"	f	class:App\\Core\\App
+callAction	core/Router.php	/^	protected function callAction($controller, $action) {$/;"	f	class:Router
+classMap	vendor/composer/ClassLoader.php	/^    private $classMap = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+classMap	vendor/composer/autoload_static.php	/^    public static $classMap = array ($/;"	v	class:Composer\\Autoload\\ComposerStaticInit0e147355c3fe1c3ddd99cd4c885a9041
+classMapAuthoritative	vendor/composer/ClassLoader.php	/^    private $classMapAuthoritative = false;$/;"	v	class:Composer\\Autoload\\ClassLoader
+classmap	composer.json	/^		"classmap": [$/;"	a	object:autoload
+complete	models/task.php	/^  public function complete() {$/;"	f	class:Task
+completed	models/task.php	/^  public $completed = False;$/;"	v	class:Task
+contact	controllers/PagesController.php	/^	public function contact() {$/;"	f	class:PagesController
+dd	core/functions.php	/^function dd($data) {$/;"	f
+description	models/task.php	/^  public $description;$/;"	v	class:Task
+direct	core/Router.php	/^	public function direct($uri, $method) {$/;"	f	class:Router
+fallbackDirsPsr0	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr0 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+fallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    private $fallbackDirsPsr4 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+findFile	vendor/composer/ClassLoader.php	/^    public function findFile($class)$/;"	f	class:Composer\\Autoload\\ClassLoader
+findFileWithExtension	vendor/composer/ClassLoader.php	/^    private function findFileWithExtension($class, $ext)$/;"	f	class:Composer\\Autoload\\ClassLoader
+get	core/App.php	/^	public static function get($key) {$/;"	f	class:App\\Core\\App
+get	core/Router.php	/^	public function get($uri, $controller) {$/;"	f	class:Router
+getApcuPrefix	vendor/composer/ClassLoader.php	/^    public function getApcuPrefix()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getClassMap	vendor/composer/ClassLoader.php	/^    public function getClassMap()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getFallbackDirs	vendor/composer/ClassLoader.php	/^    public function getFallbackDirs()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getFallbackDirsPsr4	vendor/composer/ClassLoader.php	/^    public function getFallbackDirsPsr4()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getInitializer	vendor/composer/autoload_static.php	/^    public static function getInitializer(ClassLoader $loader)$/;"	f	class:Composer\\Autoload\\ComposerStaticInit0e147355c3fe1c3ddd99cd4c885a9041
+getLoader	vendor/composer/autoload_real.php	/^    public static function getLoader()$/;"	f	class:ComposerAutoloaderInit0e147355c3fe1c3ddd99cd4c885a9041
+getPrefixes	vendor/composer/ClassLoader.php	/^    public function getPrefixes()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getPrefixesPsr4	vendor/composer/ClassLoader.php	/^    public function getPrefixesPsr4()$/;"	f	class:Composer\\Autoload\\ClassLoader
+getUseIncludePath	vendor/composer/ClassLoader.php	/^    public function getUseIncludePath()$/;"	f	class:Composer\\Autoload\\ClassLoader
+home	controllers/PagesController.php	/^	public function home() {$/;"	f	class:PagesController
+includeFile	vendor/composer/ClassLoader.php	/^function includeFile($file)$/;"	f	namespace:Composer\\Autoload
+index	controllers/TasksController.php	/^	public function index() {$/;"	f	class:TasksController
+insert	core/database/QueryBuilder.php	/^	public function insert($table, $data) {$/;"	f	class:QueryBuilder
+isClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function isClassMapAuthoritative()$/;"	f	class:Composer\\Autoload\\ClassLoader
+isComplete	models/task.php	/^  public function isComplete() {$/;"	f	class:Task
+load	core/Router.php	/^	public static function load($file) {$/;"	f	class:Router
+loadClass	vendor/composer/ClassLoader.php	/^    public function loadClass($class)$/;"	f	class:Composer\\Autoload\\ClassLoader
+loadClassLoader	vendor/composer/autoload_real.php	/^    public static function loadClassLoader($class)$/;"	f	class:ComposerAutoloaderInit0e147355c3fe1c3ddd99cd4c885a9041
+loader	vendor/composer/autoload_real.php	/^    private static $loader;$/;"	v	class:ComposerAutoloaderInit0e147355c3fe1c3ddd99cd4c885a9041
+make	core/database/Connection.php	/^	public static function make($config) {$/;"	f	class:Connection
+mapFromDatabase	models/task.php	/^	public static function mapFromDatabase($tasks) {$/;"	f	class:Task
+method	core/Request.php	/^	public static function method() {$/;"	f	class:Request
+missingClasses	vendor/composer/ClassLoader.php	/^    private $missingClasses = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+new	controllers/TasksController.php	/^	public function new() {$/;"	f	class:TasksController
+pdo	core/database/QueryBuilder.php	/^	protected $pdo;$/;"	v	class:QueryBuilder
+post	core/Router.php	/^	public function post($uri, $controller) {$/;"	f	class:Router
+prefixDirsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixDirsPsr4 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+prefixLengthsPsr4	vendor/composer/ClassLoader.php	/^    private $prefixLengthsPsr4 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+prefixesPsr0	vendor/composer/ClassLoader.php	/^    private $prefixesPsr0 = array();$/;"	v	class:Composer\\Autoload\\ClassLoader
+redirect	core/bootstrap.php	/^function redirect($path) {$/;"	f
+register	vendor/composer/ClassLoader.php	/^    public function register($prepend = false)$/;"	f	class:Composer\\Autoload\\ClassLoader
+registry	core/App.php	/^	protected static $registry = [];$/;"	v	class:App\\Core\\App
+routes	core/Router.php	/^	protected $routes = [$/;"	v	class:Router
+selectAll	core/database/QueryBuilder.php	/^	public function selectAll($table) {$/;"	f	class:QueryBuilder
+set	vendor/composer/ClassLoader.php	/^    public function set($prefix, $paths)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setApcuPrefix	vendor/composer/ClassLoader.php	/^    public function setApcuPrefix($apcuPrefix)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setClassMapAuthoritative	vendor/composer/ClassLoader.php	/^    public function setClassMapAuthoritative($classMapAuthoritative)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setPsr4	vendor/composer/ClassLoader.php	/^    public function setPsr4($prefix, $paths)$/;"	f	class:Composer\\Autoload\\ClassLoader
+setUseIncludePath	vendor/composer/ClassLoader.php	/^    public function setUseIncludePath($useIncludePath)$/;"	f	class:Composer\\Autoload\\ClassLoader
+unregister	vendor/composer/ClassLoader.php	/^    public function unregister()$/;"	f	class:Composer\\Autoload\\ClassLoader
+uri	core/Request.php	/^	public static function uri() {$/;"	f	class:Request
+useIncludePath	vendor/composer/ClassLoader.php	/^    private $useIncludePath = false;$/;"	v	class:Composer\\Autoload\\ClassLoader
+vendorDir	vendor/composer/autoload_classmap.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_namespaces.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+vendorDir	vendor/composer/autoload_psr4.php	/^$vendorDir = dirname(dirname(__FILE__));$/;"	v
+view	core/bootstrap.php	/^function view($templateName, $data = []) {$/;"	f
